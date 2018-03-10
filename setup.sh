@@ -2,7 +2,7 @@
 # Update and upgrade #
 sudo apt-get -y update
 sudo apt-get -y upgrade
-# Remove unrequired apps (except 'Mines') #
+# Remove unrequired apps #
 sudo apt remove -y aisleriot gnome-mahjongg gnome-sudoku 
 # Install new apps #
 sudo apt install -y python2.7 python-pip
@@ -12,6 +12,8 @@ sudo apt-get -y install vim
 # Install node.js and NPM #
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 sudo apt-get install -y nodejs
+# Install node-sass globally #
+sudo npm install --unsafe-perm -g node-sass
 # Install vim configs #
 sudo apt-get -y install build-essential cmake
 git clone --recurse-submodules https://github.com/samuelspurling/.vim ~/.vim
