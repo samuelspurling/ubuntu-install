@@ -6,6 +6,7 @@ sudo apt-get -y upgrade
 sudo apt remove -y aisleriot gnome-mahjongg gnome-sudoku 
 # Install new apps #
 sudo apt install -y python2.7 python-pip
+sudo apt install -y curl
 sudo apt-get -y install git
 sudo apt-get -y install vim
 # Install vim configs #
