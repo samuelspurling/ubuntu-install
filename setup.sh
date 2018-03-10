@@ -9,6 +9,9 @@ sudo apt install -y python2.7 python-pip
 sudo apt install -y curl
 sudo apt-get -y install git
 sudo apt-get -y install vim
+# Install node.js and NPM #
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt-get install -y nodejs
 # Install vim configs #
 sudo apt-get -y install build-essential cmake
 git clone --recurse-submodules https://github.com/samuelspurling/.vim ~/.vim
