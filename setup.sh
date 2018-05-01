@@ -16,7 +16,7 @@ sudo apt-get install -y nodejs
 sudo npm install --unsafe-perm -g node-sass
 # Install vim configs #
 sudo apt-get -y install build-essential cmake
-git clone --recurse-submodules https://github.com/samuelspurling/.vim ~/.vim
+git clone https://github.com/samuelspurling/.vim ~/.vim
 python ~/.vim/bundle/YouCompleteMe/install.py
 # Change terminal colors to be not horrible #
 mkdir ~/temp
